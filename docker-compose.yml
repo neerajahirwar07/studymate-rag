@@ -1,0 +1,13 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      # Optional: set a key to use a hosted LLM instead of the built-in extractive answerer.
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+    volumes:
+      - studymate-data:/data
+
+volumes:
+  studymate-data:

@@ -1,0 +1,40 @@
+{
+  "answerable": [
+    {"q": "What is the time complexity of binary search?", "doc": "Binary Search"},
+    {"q": "Why does binary search need a sorted array?", "doc": "Binary Search"},
+    {"q": "How do you avoid integer overflow when computing the middle index?", "doc": "Binary Search"},
+    {"q": "How do hash tables handle collisions?", "doc": "Hash Tables"},
+    {"q": "What is the load factor of a hash table?", "doc": "Hash Tables"},
+    {"q": "What is the worst case lookup time of a hash table?", "doc": "Hash Tables"},
+    {"q": "What does second normal form require?", "doc": "Database Normalization"},
+    {"q": "What is BCNF?", "doc": "Database Normalization"},
+    {"q": "Why would you denormalize a database?", "doc": "Database Normalization"},
+    {"q": "What does atomicity mean in a transaction?", "doc": "ACID Transactions"},
+    {"q": "Which isolation level prevents phantom reads?", "doc": "ACID Transactions"},
+    {"q": "How is durability achieved after a commit?", "doc": "ACID Transactions"},
+    {"q": "What is the convoy effect in scheduling?", "doc": "CPU Scheduling"},
+    {"q": "How does aging prevent starvation?", "doc": "CPU Scheduling"},
+    {"q": "What happens if the round robin time quantum is too small?", "doc": "CPU Scheduling"},
+    {"q": "What is the three-way handshake?", "doc": "TCP vs UDP"},
+    {"q": "Why is UDP used for video streaming?", "doc": "TCP vs UDP"},
+    {"q": "Which protocol does HTTP/3 run over?", "doc": "TCP vs UDP"},
+    {"q": "Which HTTP methods are idempotent?", "doc": "REST API Design"},
+    {"q": "What does status code 201 mean?", "doc": "REST API Design"},
+    {"q": "What does stateless mean for a REST API?", "doc": "REST API Design"},
+    {"q": "What is memoization?", "doc": "Dynamic Programming"},
+    {"q": "What is the difference between memoization and tabulation?", "doc": "Dynamic Programming"},
+    {"q": "Name classic dynamic programming problems.", "doc": "Dynamic Programming"},
+    {"q": "How does BFS find shortest paths?", "doc": "Graph Traversal"},
+    {"q": "Which algorithm handles negative edge weights?", "doc": "Graph Traversal"},
+    {"q": "What is the time complexity of Dijkstra's algorithm?", "doc": "Graph Traversal"}
+  ],
+  "unanswerable": [
+    {"q": "Who won the FIFA World Cup in 2022?"},
+    {"q": "How do I bake sourdough bread?"},
+    {"q": "What is the capital of Australia?"},
+    {"q": "Explain how photosynthesis works in plants."},
+    {"q": "What is the syntax of a Rust match expression?"},
+    {"q": "How does the TCP congestion window grow during slow start?"},
+    {"q": "What is the time complexity of quicksort?"}
+  ]
+}
